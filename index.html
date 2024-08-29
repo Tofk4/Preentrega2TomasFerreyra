@@ -5,10 +5,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
         <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
-        <div class="container">
+        <div class="container text-align: center">
             <img src="./Fotos/logo.png" alt="">
         </div>
         <header class="container">
@@ -38,8 +38,7 @@
               </nav>
         </header>
         <main>
-            <section class="container-fluid">
-              <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+              <div id="carouselExampleCaptions" class="carousel slide w-100" data-bs-ride="carousel">
                 <div class="carousel-indicators">
                   <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                   <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -47,7 +46,7 @@
                 </div>
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                    <img src="./Fotos/sara1.jpeg" class="d-block w-100" alt="..." height="550px">
+                    <img src="./Fotos/sara1.jpeg" class="d-block w-100" alt="..." height="550rem">
                     <div class="carousel-caption d-none d-md-block">
                       <h5>Etiqueta de la primera diapositiva</h5>
                       <p>Algún contenido placeholder representativo para la primera diapositiva.</p>
@@ -55,7 +54,7 @@
                     </div>
                   </div>
                   <div class="carousel-item active">
-                    <img src="./Fotos/sara2.jpeg" class="d-block w-100" alt="..." height="550px">
+                    <img src="./Fotos/sara2.jpeg" class="d-block w-100" alt="..." height="550rem">
                     <div class="carousel-caption d-none d-md-block">
                       <h5>Etiqueta de la segunda diapositiva</h5>
                       <p>Algún contenido placeholder representativo para la segunda diapositiva.</p>
@@ -63,7 +62,7 @@
                     </div>
                   </div>
                   <div class="carousel-item active">
-                    <img src="./Fotos/sara3.jpeg" class="d-block w-100" alt="..." height="550px">
+                    <img src="./Fotos/sara3.jpeg" class="d-block w-100" alt="..." height="550rem">
                     <div class="carousel-caption d-none d-md-block">
                       <h5>Etiqueta de la tercera diapositiva</h5>
                       <p>Algún contenido placeholder representativo para la tercera diapositiva.</p>
@@ -80,25 +79,18 @@
                   <span class="visually-hidden">Siguiente</span>
                 </button>
               </div>
-            </section>
-            <div class="container">
+            <section class="container">
               <div class="row">
-                <div class="col-7">
-                  <h2>Lo mas destacado</h2> 
-                </div>
-                <div class="col-5">
-                  <h2>Trending</h2>
-                </div> 
+                <div class="col-6"><h1>Lo mas destacado</h1></div>
+                <div class="col-6 col-s-0"><h1>Lo mas destacado</h1></div>
               </div>
-            </div>
-            <section class="container">  
-                <div class="row">
-                    <div class="col-7">
-                      <div class="card">
+                <div class="row row-cols-1 row-cols-md-2 g-4">
+                    <div class="col-7 col-sm-6">
+                      <div class="card h-100 border-0">
                         <img src="./Fotos/oddmami.jpeg" class="card-img-top" alt="...">
                       </div>
                     </div>
-                    <div class="col-5">
+                    <div class="col-5 col-sm-">
                         <div class="card mb-3" style="max-width: 540px;">
                             <div class="row g-0">
                               <div class="col-md-4">
@@ -145,18 +137,15 @@
                 </div>         
             </section>
 
-            <div>
-                <div id="divisorrojo"></div>
-            </div>
-
             <section class="container">
+              <hr class="hr" / width="100%">
                 <div>
                   <h2>Musica</h2>
                 </div> 
                 <div class="row row-cols-1 row-cols-md-2 g-4">
                     <div class="col">
-                      <div class="card">
-                        <img src="./Fotos/oddmami.jpeg" class="card-img-top" alt="..." height="770px">
+                      <div class="card h-100">
+                        <img src="./Fotos/oddmami.jpeg" class="card-img-top h-100" alt="..." >
                         <div class="card-body">
                           <h5 class="card-title">Título de la tarjeta</h5>
                           <p class="card-text">Esta es una tarjeta más larga con texto de apoyo a continuación como introducción natural a contenido adicional. Este contenido es un poco más largo.</p>
@@ -164,8 +153,8 @@
                       </div>
                     </div>
                     <div class="col">
-                      <div class="card">
-                        <img src="./Fotos/sara5.jpeg" class="card-img-top" alt="..." height="770px">
+                      <div class="card h-100">
+                        <img src="./Fotos/sara5.jpeg" class="card-img-top h-100" alt="..." >
                         <div class="card-body">
                           <h5 class="card-title">Título de la tarjeta</h5>
                           <p class="card-text">Esta es una tarjeta más larga con texto de apoyo a continuación como introducción natural a contenido adicional. Este contenido es un poco más largo.</p>
@@ -173,8 +162,8 @@
                       </div>
                     </div>
                     <div class="col">
-                      <div class="card">
-                        <img src="./Fotos/babeblade.jpeg" class="card-img-top" alt="..." height="770px">
+                      <div class="card h-100">
+                        <img src="./Fotos/babeblade.jpeg" class="card-img-top h-100" alt="..." >
                         <div class="card-body">
                           <h5 class="card-title">Título de la tarjeta</h5>
                           <p class="card-text">Esta es una tarjeta más larga con texto de apoyo a continuación como introducción natural a contenido adicional.</p>
@@ -182,8 +171,8 @@
                       </div>
                     </div>
                     <div class="col">
-                      <div class="card">
-                        <img src="./Fotos/blair11.jpeg" class="card-img-top" alt="..." height="770px">
+                      <div class="card h-100">
+                        <img src="./Fotos/blair11.jpeg" class="card-img-top h-100" alt="..." >
                         <div class="card-body">
                           <h5 class="card-title">Título de la tarjeta</h5>
                           <p class="card-text">Esta es una tarjeta más larga con texto de apoyo a continuación como introducción natural a contenido adicional. Este contenido es un poco más largo.</p>
@@ -191,10 +180,8 @@
                       </div>
                     </div>
                   </div>
-            </section>
-            <div>
-                <div id="divisorrojo"></div>
-            </div>
+            </section>           
+            <!--
             
             <section class="container-fluid">
                 <div>
@@ -202,72 +189,152 @@
                 </div>          
                     <div class="row">
                             <div class="col-2">
-                                <div class="card text-center" style="width: 18rem;">
+                                <div class="card text-center border-0" style="width: 18rem;">
                                     <img src="./Fotos/blair1.jpeg" class="card-img-top" alt="..." height="230px">
                                     <div class="card-body">
                                       <h5 class="card-title">Título de album</h5>
                                       <p class="card-text">Artista</p>
                                       
                                     </div>
-                                  </div>
+                                </div>
                             </div>
                             <div class="col-2">
-                                <div class="card text-center" style="width: 18rem;">
+                                <div class="card text-center border-0" style="width: 18rem;">
                                     <img src="./Fotos/sara4.jpeg" class="card-img-top" alt="..." height="230px">
                                     <div class="card-body">
                                       <h5 class="card-title">Título de album</h5>
                                       <p class="card-text">Artista</p>
                                       
                                     </div>
-                                  </div>
+                                </div>
                             </div>
                             <div class="col-2">
-                                <div class="card text-center" style="width: 18rem;">
+                                <div class="card text-center border-0" style="width: 18rem;">
                                     <img src="./Fotos/babeblade5.jpeg" class="card-img-top" alt="..." height="230px">
                                     <div class="card-body">
                                       <h5 class="card-title">Título de album</h5>
                                       <p class="card-text">Artista</p>
                                       
                                     </div>
-                                  </div>
+                                </div>
                             </div>
                             <div class="col-2">
-                                <div class="card text-center" style="width: 18rem;">
+                                <div class="card text-center border-0" style="width: 18rem;">
                                     <img src="./Fotos/oddmami3.jpeg" class="card-img-top" alt="..." height="230px">
                                     <div class="card-body">
                                       <h5 class="card-title">Título de album</h5>
                                       <p class="card-text">Artista</p>
                                       
                                     </div>
-                                  </div>
+                                </div>
                             </div>     
                             <div class="col-2">
-                                <div class="card text-center" style="width: 18rem;">
+                                <div class="card text-center border-0" style="width: 18rem;">
                                     <img src="./Fotos/dillom.jpeg" class="card-img-top" alt="..." height="230px">
                                     <div class="card-body">
                                       <h5 class="card-title">Título de album</h5>
                                       <p class="card-text">Artista</p>
                                       
                                     </div>
-                                  </div>
+                                </div>
                             </div>
                             <div class="col-2">
-                                <div class="card text-center" style="width: 18rem;">
+                                <div class="card text-center border-0" style="width: 18rem;">
                                     <img src="./Fotos/oddmami.jpeg" class="card-img-top" alt="..." height="230px">
                                     <div class="card-body">
                                       <h5 class="card-title">Título de album</h5>
                                       <p class="card-text">Artista</p>
                                       
                                     </div>
-                                  </div>
+                                </div>
                             </div>       
                     </div>
             </section>
-            <div class="row">
-
-            </div>    
+            -->
         </main>
-        <footer>
+        <div class="container my-">
+          <hr class="hr" / width="100%">  
+
+          <footer class="text-center text-lg-start border border-white mt-xl-5 pt-4">
+
+            <div class="container p-4">
+
+              <div class="row">
+
+                <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+                  <h5 class="text-uppercase mb-4">OUR WORLD</h5>
+        
+                  <ul class="list-unstyled mb-4">
+                    <li>
+                      <a href="#!" class="text-white">About us</a>
+                    </li>
+                    <li>
+                      <a href="#!" class="text-white">Collections</a>
+                    </li>
+                    <li>
+                      <a href="#!" class="text-white">Environmental philosophy</a>
+                    </li>
+                    <li>
+                      <a href="#!" class="text-white">Artist collaborations</a>
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+                  <h5 class="text-uppercase mb-4">Assistance</h5>
+        
+                  <ul class="list-unstyled">
+                    <li>
+                      <a href="#!" class="text-white">Contact us</a>
+                    </li>
+                    <li>
+                      <a href="#!" class="text-white">Size Guide</a>
+                    </li>
+                    <li>
+                      <a href="#!" class="text-white">Shipping Information</a>
+                    </li>
+                    <li>
+                      <a href="#!" class="text-white">Returns & Exchanges</a>
+                    </li>
+                    <li>
+                      <a href="#!" class="text-white">Payment</a>
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+                  <h5 class="text-uppercase mb-4">Careers</h5>
+        
+                  <ul class="list-unstyled">
+                    <li>
+                      <a href="#!" class="text-white">Jobs</a>
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+                  <h5 class="text-uppercase mb-4">Sign up to our newsletter</h5>
+        
+                  <div class="form-outline form-white mb-4">
+                    <input type="email" id="form5Example2" class="form-control" />
+                    <label class="form-label" for="form5Example2">Email address</label>
+                  </div>
+        
+                  <button type="submit" class="btn btn-outline-white btn-block">Subscribe</button>
+                </div>
+
+              </div>
+
+            </div>
+
+            <div class="text-center p-3 border-top border-white">
+              © 2020 Copyright:
+              <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+            </div>
+          </footer>
+        </div>
+        <!--
+          <footer>
           <section class="container-fluid ">
             <div class="row">
                 <div class="col-4">
@@ -284,7 +351,7 @@
                 </div>
                 <div class="col-4">
                     <div>
-                      <img src="./Fotos/logo.png" alt="">
+                      
                     </div>
                     <h3>Suscribete a nuestro newsletter</h3>
                     <form class="d-flex" role="search">
@@ -296,6 +363,8 @@
             </div>      
           </section>       
         </footer>
+        -->
+        
         <script src="bootstrap/js/bootstrap.min.js"></script>
     </body>
 </html>
