@@ -20,3 +20,23 @@
     align-content: space-between;
     flex-direction: column;
 }
+
+.col{
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+@media (max-width: 600px) {
+    #columnalado {
+      display: none;
+    }
+  }
+  @media (max-width: 780px) {
+    #columnalado {
+      display: none;
+    }
+    #lomasdestacado{
+        width: 100%;
+    }
+    }
+  
